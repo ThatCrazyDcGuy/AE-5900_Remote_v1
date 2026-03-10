@@ -1,0 +1,15 @@
+1. a case
+2. 2x breadboards
+3. 2x NF Transfomer 600:600 Ohm
+4. 4x PC817C Optocoupler
+1x CP018829 USB2.0 Expansion Module HUB Concentrator 
+1x RJ45 Breakout
+1x Jack
+1x USB-C Breakout
+2x 10kOhm Potentiometer or fixed 10kOhm resistors
+1x Elco capacitor 10uf about 16v to 50v(just to fake a electret capsule mic)
+1x Atmega32U4 board
+1x USB-Sound Card (choose one that is easy to solder but small)
+5x 470ohm resistors (needed to prevent killing the Optocouplers)
+some ceramic capacitors (best you i'll have a set) needed to kick the hf outof your soundcard
+some resistors (best you i'll have a set) needed for faking keys pressed
