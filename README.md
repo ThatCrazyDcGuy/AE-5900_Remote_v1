@@ -1,9 +1,10 @@
 # AE-5900_Remote_v1
 A remote control for the amazing Albrecht AE-5900 and similiar Radios
 
-I build something and someone told me to publish on github and i said hmmmkay.
+The ALbrecht AE-5900 is the fantastic new (2026) FM/AM/SSB/CW Radio i did not expect. It has a huge potential to have fun with it and brings me back to CB after 35 years of silence. 
 
-So, let's see what will happen in next days.
+So, build something and someone told me to publish on github and i said hmmmkay.
+Let's see what will happen in next days.
 
 10/Mar/2026:
 1. Opened github repo
