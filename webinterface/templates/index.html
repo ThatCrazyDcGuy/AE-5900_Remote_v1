@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AE-5900 Remote</title>
+    <style>
+        body { background: #1a1a1a; color: #00ff00; font-family: 'Courier New', monospace; text-align: center; padding: 20px; }
+        .display { border: 2px solid #333; background: #000; margin: 10px auto; width: 90%; max-width: 400px; padding: 20px; border-radius: 10px; box-shadow: 0 0 15px #00ff0033; }
+        .freq { font-size: 3.5em; font-weight: bold; margin: 10px 0; }
+        .controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 90%; max-width: 400px; margin: 20px auto; }
+        button { background: #333; color: white; border: none; padding: 20px; font-size: 1.1em; border-radius: 5px; cursor: pointer; }
+        .btn-ptt { grid-column: span 2; background: #4a0000; font-weight: bold; min-height: 80px; }
+        .btn-ptt.active { background: #ff0000; color: white; box-shadow: 0 0 20px red; }
+        .setup-area { margin-top: 30px; border-top: 1px solid #333; padding-top: 20px; color: #888; }
+        .hold-button { position: relative; width: 200px; height: 45px; background: #444; color: white; border: none; overflow: hidden; margin: 10px; }
+        .progress-bar { position: absolute; bottom: 0; left: 0; height: 5px; background: #00ff00; width: 0%; transition: width 0.1s linear; }
+    </style>
+</head>
+<body onload="send('G')">
+
+    <div class="display">
+        <div id="regionDisp" style="font-size: 0.7em;">REGION: -- CH</div>
+        <div class="freq" id="chDisp">--</div>
+        <div id="modeName" style="font-size: 1.2em; color: #888;">WAITING...</div>
+        <div id="pttStat" style="margin-top:10px; font-weight:bold;">○ IDLE</div>
+    </div>
+
+    <div class="controls">
+        <button onclick="send('U')">▲ CH UP</button>
+        <button onclick="send('D')">▼ CH DOWN</button>
+        <button onclick="send('M')" style="grid-column: span 2;">MODE WECHSELN</button>
+        <button onclick="send('P')" id="pttBtn" class="btn-ptt">PTT TOGGLE</button>
+    </div>
+
+    <details class="setup-area">
+        <summary>⚙️ SETUP & SYNC</summary>
+        <div style="background: #222; padding: 20px; border-radius: 10px;">
+            <p>1. Funkgerät auf <b>CH 1 / PA</b> stellen.</p>
+            <button id="syncBtn" class="hold-button">
+                <span id="syncText">SYNC (Hold 3s)</span>
+                <div class="progress-bar" id="syncProgress"></div>
+            </button>
+            <p>PTT Timeout: 
+                <input type="number" id="pttInput" value="300" style="width: 50px; background:#000; color:#0f0; border:1px solid #555;"> s
+                <button onclick="updateTimeout()" style="padding:5px; font-size:0.7em;">SET</button>
+            </p>
+            <button onclick="send('C')">REGION 40/80 TOGGLE</button>
+        </div>
+    </details>
+
+    <script>
+const modes = ["PA", "CW", "FM", "AM", "USB", "LSB"];
+let pttCountdown; 
+let timeLeft;
+let isTransmitting = false; 
+
+
+setInterval(() => {
+    send('G');
+}, 500);
+
+function updateUI(data) {
+    if(!data.includes("STATUS|")) return;
+    const parts = data.split('|');
+    parts.forEach(p => {
+        const [key, val] = p.split(':');
+        if(key === "CH")   document.getElementById('chDisp').innerText = val.padStart(2, '0');
+        if(key === "MODE") document.getElementById('modeName').innerText = modes[parseInt(val)];
+        if(key === "MAX")  document.getElementById('regionDisp').innerText = "REGION: " + val + " CH";
+        if(key === "PTT")  handlePTTUI(val);
+    });
+}
+
+function handlePTTUI(state) {
+    const btn = document.getElementById('pttBtn');
+    const stat = document.getElementById('pttStat');
+    
+    if(state === "ON") {
+        if(!isTransmitting) { 
+            isTransmitting = true;
+            btn.classList.add('active');
+            stat.innerText = "● TRANSMIT";
+            stat.style.color = "red";
+            startCountdown();
+        }
+    } else {
+        isTransmitting = false;
+        btn.classList.remove('active');
+        stat.innerText = "○ IDLE";
+        stat.style.color = "#444";
+        stopCountdown();
+    }
+}
+
+function startCountdown() {
+    clearInterval(pttCountdown);
+    timeLeft = parseInt(document.getElementById('pttInput').value);
+    pttCountdown = setInterval(() => {
+        timeLeft--;
+        if (timeLeft <= 0) {
+            document.getElementById('pttBtn').innerText = "TIMEOUT (Wait...)";
+            clearInterval(pttCountdown);
+        } else {
+            document.getElementById('pttBtn').innerText = "TX ACTIVE (" + timeLeft + "s)";
+        }
+    }, 1000);
+}
+
+function stopCountdown() {
+    clearInterval(pttCountdown);
+    document.getElementById('pttBtn').innerText = "PTT TOGGLE";
+}
+
+function updateTimeout() {
+    send('T' + document.getElementById('pttInput').value);
+}
+
+function send(cmd) {
+    fetch('/api/cmd/' + cmd)
+        .then(r => r.json())
+        .then(data => { if(data.radio_resp) updateUI(data.radio_resp); });
+}
+
+
+let hT, prg = 0;
+const sB = document.getElementById('syncBtn');
+sB.onmousedown = sB.ontouchstart = () => {
+    prg = 0;
+    hT = setInterval(() => {
+        prg += 4;
+        document.getElementById('syncProgress').style.width = prg + "%";
+        if(prg >= 100) { 
+            clearInterval(hT); 
+            send('S'); 
+            document.getElementById('syncProgress').style.width = "0%";
+            alert("Synchronisation abgeschlossen!");
+        }
+    }, 100);
+};
+sB.onmouseup = sB.onmouseleave = sB.ontouchend = () => { 
+    clearInterval(hT); 
+    document.getElementById('syncProgress').style.width = "0%"; 
+};
+    </script>
+</body>
+</html>
