@@ -21,5 +21,6 @@ I'm not a programmer, but i can read what someone has written and implement in m
 3. I put some infos in the readme
 
 11/Mar/2026:
-Uploaded lot of informations, pictures,"shematics", the scripts (cleaned by googles ki)
+
+1. Uploaded lot of informations, pictures,"shematics", the scripts (cleaned by googles ki)
 It looks like chaos and yes, it is. Give me some time.
