@@ -14,16 +14,17 @@ Let's see what will happen in next days.
 
 How it works:
 
-Plug the remote device in to a raspi or somehing and your ae5900 mic plug and speaker output.
-Start mumble on your host / You migt ave to crossover Input and Output.
-python3 app.py
+Plug the remote device in to a raspi or somehing else that will run the python script. And also your ae5900 mic plug and speaker output should be connected.
+Start mumble on your host / You migt have to crossover Input and Output.
+run the python3 app.py
 browse your localhost:5000
 Pull down the setup part
 Set your ae5900 to use the middlebutton of mic TYPE1 to MODE
-sSet your ae5900 to CH1 and Mode PA
+Set your ae5900 manually to CH1 and Mode PA
 Press the sync button in websetup menu for 3 sec
-Now change, on web page, the modulation as desired and switch the chanels.
+Now change, on web page, first the modulation as desired and then switch the chanels.
 Start mumble on your remote device and have fun.
+Had good Audio-feedbacks on some QSO's
 
 Thats all.
 
@@ -33,7 +34,7 @@ Nothing more than my experience.
 I will not support.
 But i will upload some scripts, pictures and ideas to share with people.
 
-I'm not a programmer, but i can read what someone has written and implement in my projects.
+I'm not a coder, but i can read what someone has written, i can understand and implement in my projects.
 
 10/Mar/2026:
 1. Opened github repo
