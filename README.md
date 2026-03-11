@@ -1,7 +1,12 @@
 # AE-5900_Remote_v1
 A remote control for the amazing Albrecht AE-5900 and similiar Radios
 
-The ALbrecht AE-5900 is the fantastic new (2026) FM/AM/SSB/CW Radio i did not expect. It has a huge potential to have fun with it and brings me back to CB after 35 years of silence. 
+The simple idea is, to emulate the 3 button (4 include PTT) Mic and publish the control of these buttons to a flask / python over network / web.
+In my case i set the middle button of my AE5900 to Mode (modulation).
+So i can CH Up / CH Down / Mode and PTT my device from everywere.
+For audio i just use a usb Soundcard, some components and mumble on my raspberry and my phone.
+
+The Albrecht AE-5900 is the fantastic new (2026) FM/AM/SSB/CW Radio i did not expect. It has a huge potential to have fun with it and brings me back to CB after 35 years of silence. 
 
 So, i build something and someone told me to publish it on github and i said hmmmkay.
 The device i build is based on an atmega32u4, a cheap usb soundcard, a usb hub breakout board, coils, resistors, capacitors, optocouplers and some stuff i had around in my scrapbox. It is working well and i've fun with it.
