@@ -12,6 +12,21 @@ So, i build something and someone told me to publish it on github and i said hmm
 The device i build is based on an atmega32u4, a cheap usb soundcard, a usb hub breakout board, coils, resistors, capacitors, optocouplers and some stuff i had around in my scrapbox. It is working well and i've fun with it.
 Let's see what will happen in next days.
 
+How it works:
+
+Plug the remote device in to a raspi or somehing and your ae5900 mic plug and speaker output.
+Start mumble on your host / You migt ave to crossover Input and Output.
+python3 app.py
+browse your localhost:5000
+Pull down the setup part
+Set your ae5900 to use the middlebutton of mic TYPE1 to MODE
+sSet your ae5900 to CH1 and Mode PA
+Press the sync button in websetup menu for 3 sec
+Now change, on web page, the modulation as desired and switch the chanels.
+Start mumble on your remote device and have fun.
+
+Thats all.
+
 What you can expect:
 
 Nothing more than my experience.
