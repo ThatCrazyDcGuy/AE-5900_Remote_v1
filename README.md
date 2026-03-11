@@ -28,6 +28,13 @@ Had good Audio-feedbacks on some QSO's
 
 Thats all.
 
+But Why:
+
+It is the hobby you will not have enough time for it.
+Especially if you are a old guy with kids and all that surprises life will have for you. So now it is possible to use your station at home, with your perfect antenna from your workingpaces toilet or whatever.
+
+Thats just why.
+
 What you can expect:
 
 Nothing more than my experience.
