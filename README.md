@@ -27,7 +27,7 @@ Let's see what will happen in next days.
 But Why:
 
 It is the hobby you will not have enough time for.
-Especially if you are a old guy with kids and all that surprises life will have for you. So now it is possible to use your station at home, with your perfect antenna from your workingpaces toilet or whatever.
+Especially if you are a old guy with kids and all that surprises life will have for you. So now it is possible to use your home station, with your perfect antenna from your workingpaces toilet or whatever.
 
 Thats just why.
 
@@ -56,6 +56,8 @@ I will not support you personaly.
 But i will upload some scripts, pictures and ideas to share with people.
 
 I'm not a coder, but i can read what someone has written, i can understand and implement in my projects.
+
+## Whats happen here:
 
 10/Mar/2026:
 1. Opened github repo
