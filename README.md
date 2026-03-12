@@ -27,7 +27,7 @@ Let's see what will happen in next days.
 But Why:
 
 It is the hobby you will not have enough time for.
-Especially if you are a old guy with kids and all that surprises life will have for you. So now it is possible to use your home station, with your perfect antenna from your workingpaces toilet or whatever.
+Especially if you are a old guy with kids, one or more jobs and all that surprises life will have for you. So now it is possible to use your home station, with your perfect antenna from your workingpaces toilet or whatever.
 
 Thats just why.
 
@@ -76,3 +76,10 @@ I'm not a coder, but i can read what someone has written, i can understand and i
 
 1. Uploaded lot of informations, pictures,"shematics", the scripts (cleaned by googles ki)
 It looks like chaos and yes, it is. Give me some time.
+
+12/Mar/2026:
+
+1. Chill
+2. Make and edit some pictures for dokumentation - future uploads will follow
+3. Testing the device heavier to find problems
+4. Editing this readme and get a structure 
