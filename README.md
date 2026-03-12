@@ -48,6 +48,14 @@ Had good Audio-feedbacks on some QSO's
 
 Thats all.
 
+## Building
+
+The hardware in detail:
+- will follow soon
+
+### Software needed
+	# will follow soon
+
 
 ## What you can expect:
 
