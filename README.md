@@ -53,6 +53,8 @@ Thats all.
 The hardware in detail.
 i'm not so much familiar with KiCad, normally i do not plan my projects and write them down. I just do and it works somehow. I this case, just for you, because some people asking, i tried to show a shematic here:
 
+## Shematic overview of the 3 parts
+
 	![AE-5900_Remote_v1](shematics/3partstogether.png)
 
 The Atmega32U4 i used is a Pro Micro, often from SpakFun or similiar brands.
