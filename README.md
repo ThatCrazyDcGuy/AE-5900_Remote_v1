@@ -66,6 +66,19 @@ On following Picture i marked the points wehre you can solder an USB port if you
 	![AE-5900_Remote_v1](projectpictures/USB_Soldering_32U4ProMicro.jpg)
 
 ### Software needed
+
+- just for bulding
+
+Arduino IDE neded to flash/upload the Sketch (.ino file) to Pro Micro 32U4
+
+- to make the device useable
+
+Mumble & Mumble Server for your voice i/o on the computer/raspberry that will host your remote control
+
+	# sudo apt install mumble mumble-server
+	
+Mumble on your remotecomputer or Mumla on your Android phone
+
 	# will follow soon
 
 
