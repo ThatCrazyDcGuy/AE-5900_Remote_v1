@@ -81,7 +81,9 @@ Mumble on your remotecomputer or Mumla on your Android phone.
 
 Tailscale on host and remote, for use your device from all over the world. :)
 
-In best case you have pipewire or pulseaudio preinstalled on your host system.
+	# curl -fsSL https://tailscale.com/install.sh | sh
+
+In best case you have already pipewire or pulseaudio preinstalled on your host system.
 Otherwise just install all of that stuff.
 
 	# details and configs will follow soon. most of you already know how.
