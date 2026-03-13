@@ -78,8 +78,11 @@ Mumble & Mumble Server for your voice i/o on the computer/raspberry that will ho
 	# sudo apt install mumble mumble-server
 	
 Mumble on your remotecomputer or Mumla on your Android phone
+Tailscale on host and remote, for use your device from all over the world :)
+In best case you have pipewire or pulseaudio preinstalled on your host system.
+Otherwise just install all of that stuff.
 
-	# will follow soon
+	# details and configs will follow soon. most of you already know how.
 
 
 ## What you can expect:
