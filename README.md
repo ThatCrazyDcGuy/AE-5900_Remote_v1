@@ -87,7 +87,7 @@ Otherwise just install all of that stuff.
 	# details and configs will follow soon. most of you already know how.
 
 
-## What you can expect:
+## What you can expect more:
 
 Nothing more than my experience.
 I will not support you personaly.
@@ -95,7 +95,7 @@ But i will upload some scripts, pictures and ideas to share with people.
 
 I'm not a coder, but i can read what someone has written, i can understand and implement in my projects.
 
-## Whats happen here:
+## Whats happen here last days:
 
 10/Mar/2026:
 1. Opened github repo
@@ -112,4 +112,13 @@ It looks like chaos and yes, it is. Give me some time.
 1. Chill
 2. Make and edit some pictures for dokumentation - future uploads will follow
 3. Testing the device heavier to find problems
-4. Editing this readme and get a structure 
+4. Editing this readme and get a structure
+5. Lot of Test-QSO's - amazig feedbacks came in
+
+13/Mar/2026
+
+1. Had a coffe
+2. Might i solved the slow key reaction - testing is ongoing
+3. Editing this readme
+
+
