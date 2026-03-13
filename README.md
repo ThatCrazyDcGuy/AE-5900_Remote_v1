@@ -50,8 +50,16 @@ Thats all.
 
 ## Building
 
-The hardware in detail:
-- will follow soon
+The hardware in detail.
+i'm not so much familiar with KiCad, normally i do not plan my projects and write them down. I just do and it works somehow. I this case, just for you, because some people asking, i tried to show a shematic here:
+
+	![AE-5900_Remote_v1](shematics/3partstogether.png)
+
+The Atmega32U4 i used is a Pro Micro, often from SpakFun or similiar brands.
+In my case i used pin 2 - 5. You can see at the bottom of the picture TX0 RX1 GND GND  (2 3 4 5 6 7.....) <- thats wehre we connect the resistors and optocouplers.
+On following Picture i marked the points wehre you can solder an USB port if you're not a fan of lot of plugs in your projects
+
+	![AE-5900_Remote_v1](projectpictures/USB_Soldering_32U4ProMicro.jpg)
 
 ### Software needed
 	# will follow soon
