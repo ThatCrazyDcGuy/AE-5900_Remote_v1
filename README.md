@@ -89,6 +89,7 @@ Otherwise just install all of that stuff.
 	# details and configs will follow soon. most of you already know how.
 
 - Just a view on my audio settings (mumble and pavucontrol)
+You have to think reverse here. Input is Output and reverse.
 
 	![AE-5900_Remote_v1](projectpictures/mumblehostset.jpeg)
 	![AE-5900_Remote_v1](projectpictures/pavucontrolhostset.jpeg)
