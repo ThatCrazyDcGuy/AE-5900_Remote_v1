@@ -128,5 +128,6 @@ It looks like chaos and yes, it is. Give me some time.
 1. Had a coffe
 2. Might i solved the slow key reaction - testing is ongoing
 3. Editing this readme
+4. Got amazing DX SSB audio feedback Switzerland to Charlottesville USA
 
 
