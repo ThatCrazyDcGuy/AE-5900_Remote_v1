@@ -165,36 +165,37 @@ I'm not a coder, but i can read what someone has written, i can understand and i
 ## Whats happen here last days:
 
 10/Mar/2026:
-1. Opened github repo
+1. Opened github repo.
 2. Added a picture of the stuff i build.
-3. I put some infos in the readme
+3. I put some infos in the readme.
 
 11/Mar/2026:
 
-1. Uploaded lot of informations, pictures,"shematics", the scripts (cleaned by googles AI)
+1. Uploaded lot of informations, pictures,"shematics", the scripts (cleaned by googles AI).
 It looks like chaos and yes, it is. Give me some time.
 
 12/Mar/2026:
 
-1. Chill
-2. Make and edit some pictures for documentation - future uploads will follow
-3. Testing the device heavier to find problems
-4. Editing this readme and get a structure
-5. Lot of Test-QSO's - amazig feedbacks came in
+1. Chill!
+2. Make and edit some pictures for documentation - future uploads will follow.
+3. Testing the device heavier to find problems.
+4. Editing this readme and get a structure.
+5. Lot of Test-QSO's - amazig feedbacks came in.
 
 13/Mar/2026
 
-1. Had a coffe
-2. Might i solved the slow key reaction - testing is ongoing
-3. Editing this readme
-4. Got amazing DX SSB audio feedback Switzerland to Charlottesville USA
+1. Had a coffe.
+2. Might i solved the slow key reaction - testing is ongoing.
+3. Editing this readme.
+4. Got amazing DX SSB audio feedback Switzerland to Charlottesville USA.
 
 14/Mar/2026to 15/Mar/2026
 
-1. Garden was calling. Ok, it was my wife calling there is lot of work in the garden. But anyway, i had no time.
+1. Garden was calling. Ok, it was my wife calling "there is lot of work in the garden". But anyway, i had no time.
 2. I found a short time frame, wife was busy with wife-stuff, to get my antenna 6m higher.
 
 16/Mar/2026
 
-1. Work is ongoing
+1. Work is ongoing.
 2. Still writing readme and documentation...
+3. Short Telegram update.
