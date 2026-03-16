@@ -104,7 +104,8 @@ The custom.conf:
 	
 And add:
 
-	#context.properties = {
+	#
+	context.properties = {
     default.clock.rate = 48000
     default.clock.allowed-rates = [ 44100 48000 88200 96000 ]
 	}
@@ -115,7 +116,8 @@ The autogain part:
 
 And add:
 
-	 # pulse.rules = [
+	 # 
+	 pulse.rules = [
     {
         matches = [
             { application.process.binary = "mumble" }
