@@ -127,6 +127,16 @@ And add:
     }
 	]
 
+The autoscale part:
+
+	# mcedit ~/.config/pipewire/pipewire-pulse.conf.d/block-autoscale.conf
+
+And add:
+
+	#
+	pulse.rules = [ { matches = [ { application.process.binary = "mumble" } ]; actions = { quirks = [ block-source-volume ] } } ]
+
+
 - Just a view on my audio settings (mumble and pavucontrol)
 You have to think reverse here. Input is Output and reverse.
 
