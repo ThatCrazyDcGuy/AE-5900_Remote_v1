@@ -98,21 +98,24 @@ If you want to have the same as me:
 
 My custom configs looks like this (use nano, vi or mcedit:
 
-The custom.conf
+The custom.conf:
+
 	# mcedit ~/.config/pipewire/pipewire.conf.d/custom.conf
 	
 And add:
-"context.properties = {
+
+	#context.properties = {
     default.clock.rate = 48000
     default.clock.allowed-rates = [ 44100 48000 88200 96000 ]
-}"
+	}
 
 The autogain part:
 
-	#  ~/.config/pipewire/pipewire-pulse.conf.d/99-disable-autogain.conf
+	# mcedit ~/.config/pipewire/pipewire-pulse.conf.d/99-disable-autogain.conf
 
 And add:
-"pulse.rules = [
+
+	 # pulse.rules = [
     {
         matches = [
             { application.process.binary = "mumble" }
@@ -120,7 +123,7 @@ And add:
         ]
         actions = { quirks = [ block-source-volume ] }
     }
-]"
+	]
 
 - Just a view on my audio settings (mumble and pavucontrol)
 You have to think reverse here. Input is Output and reverse.
