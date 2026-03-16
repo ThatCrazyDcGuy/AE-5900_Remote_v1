@@ -30,15 +30,15 @@ Let's see what will happen in next days.
 But Why:
 
 It is the hobby you will not have enough time for.
-Especially if you are a old guy with kids, one or more jobs and all that surprises life will have for you. So now it is possible to use your home station, with your perfect antenna from your workingpaces toilet or whatever.
+Especially if you are a old guy with kids, garden, one or more jobs and all that surprises life will have for you. So now it is possible to use your home station, with your perfect build of an antenna from your workingpaces toilet or whatever.
 
 Thats just why.
 
 
 ## How it works:
 
-Plug the remote device in to a raspi or somehing else that will run the python script. And also your ae5900 mic plug and speaker output should be connected.
-Start mumble on your host / You migt have to crossover Input and Output.
+Plug the remote device in to a rapberry or somehing else that will run the python script. And also your ae5900 mic plug and speaker output should be connected.
+Start mumble on your host / You might have to crossover Input and Output.
 run the python3 app.py
 browse your localhost:5000
 Pull down the setup part
@@ -62,7 +62,7 @@ i'm not so much familiar with KiCad, normally i do not plan my projects and writ
 
 The Atmega32U4 i used is a Pro Micro, often from SpakFun or similiar brands.
 In my case i used pin 2 - 5. You can see at the bottom of the picture TX0 RX1 GND GND  (2 3 4 5 6 7.....) <- thats wehre we connect the resistors and optocouplers.
-On following Picture i marked the points wehre you can solder an USB port if you're not a fan of lot of plugs in your projects
+On following Picture i marked the points wehre you can solder an USB port if you're not a fan of lot of plugs in your projects.
 
 - Pro Micro with 32U4 chip
 
@@ -73,6 +73,7 @@ On following Picture i marked the points wehre you can solder an USB port if you
 - just for bulding
 
 Arduino IDE neded to flash/upload the Sketch (.ino file) to Pro Micro 32U4
+(Some librarys needed. I will list them later.)
 
 - to make the device useable
 
@@ -136,6 +137,7 @@ And add:
 	
 	pulse.rules = [ { matches = [ { application.process.binary = "mumble" } ]; actions = { quirks = [ block-source-volume ] } } ]
 
+You might have a look:
 
 - Just a view on my audio settings (mumble and pavucontrol)
 You have to think reverse here. Input is Output and reverse.
