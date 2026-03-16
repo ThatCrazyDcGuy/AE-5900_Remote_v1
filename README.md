@@ -37,7 +37,7 @@ Thats just why.
 
 ## How it works:
 
-Plug the remote device in to a rapberry or somehing else that will run the python script. And also your ae5900 mic plug and speaker output should be connected.
+Plug the remote device in to a raspberry or somehing else that will run the python script. And also your ae5900 mic plug and speaker output should be connected.
 Start mumble on your host / You might have to crossover Input and Output.
 run the python3 app.py
 browse your localhost:5000
