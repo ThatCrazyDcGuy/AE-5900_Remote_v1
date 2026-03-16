@@ -3,7 +3,8 @@ A simple LAN\WEB Albrecht AE-5900 remote control
 
 ## Main purpose of the project:
 
-Build a simple LAN\WEB remote control for the amazing Albrecht AE-5900 and similiar Radios
+Build a simple LAN / WEB remote control for the amazing Albrecht AE-5900 and similiar CB and HAM Radios.
+It is far away from a rigctl or hamlib but hey, it works.
 
 The simple idea is, to emulate the 3 button (4 include PTT) Mic and publish the control of these buttons to a flask / python over network / web.
 In my case i set the middle button of my AE5900 to Mode (modulation).
@@ -11,7 +12,7 @@ So i can CH Up / CH Down / Mode and PTT my device from everywere.
 For audio i just use a usb Soundcard, some components and mumble on my raspberry and my phone.
 
 To be clear: That will work on most cb-radios which are controlled by buttons available on microphone.
-But it is tested on the Albrecht AE5900.
+It is just tested on the Albrecht AE5900.
 
 ## A picture will say more than your wife
 
