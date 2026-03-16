@@ -104,7 +104,7 @@ The custom.conf:
 	
 And add:
 
-	#
+	
 	context.properties = {
     default.clock.rate = 48000
     default.clock.allowed-rates = [ 44100 48000 88200 96000 ]
@@ -116,7 +116,7 @@ The autogain part:
 
 And add:
 
-	 # 
+	  
 	 pulse.rules = [
     {
         matches = [
@@ -133,7 +133,7 @@ The autoscale part:
 
 And add:
 
-	#
+	
 	pulse.rules = [ { matches = [ { application.process.binary = "mumble" } ]; actions = { quirks = [ block-source-volume ] } } ]
 
 
