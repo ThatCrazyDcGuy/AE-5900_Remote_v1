@@ -89,7 +89,7 @@ Tailscale on host and remote, for use your device from all over the world. :)
 In best case you have already pipewire or pulseaudio preinstalled on your host system.
 Otherwise just install all of that stuff.
 
-In my case i use pipewire and some custom configs to get a clear ausio without the autogain trash.
+In my case i use pipewire and some custom configs to get a clear audio without the autogain trash.
 If you want to have the same as me:
 
 	# sudo apt install python3-serial python3-flask python3-time
