@@ -89,7 +89,24 @@ Tailscale on host and remote, for use your device from all over the world. :)
 In best case you have already pipewire or pulseaudio preinstalled on your host system.
 Otherwise just install all of that stuff.
 
-	# details and configs will follow soon. most of you already know how.
+In my case i use pipewire and some custom configs to get a clear ausio without the autogain trash.
+If you want to have the same as me:
+
+	# sudo apt install python3-serial python3-flask python3-time
+	# sudo apt install pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire pipewire-audio-client-libraries wireplumber libpipewire-0.3-modules ladspa-sdk swh-plugins dbus-user-session 
+	# sudo apt remove pipewire-media-session
+
+My custom configs looks like this (use nano, vi or mcedit:
+	# mcedit ~/.config/pipewire/pipewire.conf.d/custom.conf
+	
+And add:
+# context.properties = {
+    default.clock.rate = 48000
+    default.clock.allowed-rates = [ 44100 48000 88200 96000 ]
+}
+
+
+
 
 - Just a view on my audio settings (mumble and pavucontrol)
 You have to think reverse here. Input is Output and reverse.
