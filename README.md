@@ -97,6 +97,8 @@ If you want to have the same as me:
 	# sudo apt remove pipewire-media-session
 
 My custom configs looks like this (use nano, vi or mcedit:
+
+The custom.conf
 	# mcedit ~/.config/pipewire/pipewire.conf.d/custom.conf
 	
 And add:
@@ -105,7 +107,20 @@ And add:
     default.clock.allowed-rates = [ 44100 48000 88200 96000 ]
 }"
 
+The autogain part:
 
+	#  ~/.config/pipewire/pipewire-pulse.conf.d/99-disable-autogain.conf
+
+And add:
+"pulse.rules = [
+    {
+        matches = [
+            { application.process.binary = "mumble" }
+            { application.process.binary = "mumble-worker" }
+        ]
+        actions = { quirks = [ block-source-volume ] }
+    }
+]"
 
 - Just a view on my audio settings (mumble and pavucontrol)
 You have to think reverse here. Input is Output and reverse.
