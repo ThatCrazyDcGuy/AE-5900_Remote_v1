@@ -95,6 +95,14 @@ You have to think reverse here. Input is Output and reverse.
 	![AE-5900_Remote_v1](projectpictures/pavucontrolhostset.jpeg)
 
 
+## Run and have fun
+
+If the hardware is build, all the settings are done and the Pro Micro 32U4 flashed, then;
+
+	# git clone https://github.com/ThatCrazyDcGuy/AE-5900_Remote_v1
+	# python3 ~/AE-5900_Remote_v1/webinterface/app.py	
+
+
 ## What you can expect more:
 
 Nothing more than my experience.
@@ -112,13 +120,13 @@ I'm not a coder, but i can read what someone has written, i can understand and i
 
 11/Mar/2026:
 
-1. Uploaded lot of informations, pictures,"shematics", the scripts (cleaned by googles ki)
+1. Uploaded lot of informations, pictures,"shematics", the scripts (cleaned by googles AI)
 It looks like chaos and yes, it is. Give me some time.
 
 12/Mar/2026:
 
 1. Chill
-2. Make and edit some pictures for dokumentation - future uploads will follow
+2. Make and edit some pictures for documentation - future uploads will follow
 3. Testing the device heavier to find problems
 4. Editing this readme and get a structure
 5. Lot of Test-QSO's - amazig feedbacks came in
@@ -130,4 +138,10 @@ It looks like chaos and yes, it is. Give me some time.
 3. Editing this readme
 4. Got amazing DX SSB audio feedback Switzerland to Charlottesville USA
 
+14/Mar/2026to 15/Mar/2026
 
+1. Garden was calling. Ok, it was my wife calling there is lot of work in the garden. But anyway, i had no time.
+
+16/Mar/2026
+
+1. Work is ongoing
