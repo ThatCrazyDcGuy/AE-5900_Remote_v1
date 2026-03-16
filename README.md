@@ -93,7 +93,7 @@ In my case i use pipewire and some custom configs to get a clear audio without t
 If you want to have the same as me:
 
 	# sudo apt install python3-serial python3-flask python3-time
-	# sudo apt install pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire pipewire-audio-client-libraries wireplumber libpipewire-0.3-modules ladspa-sdk swh-plugins dbus-user-session 
+	# sudo apt install pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire pipewire-audio-client-libraries pavucontrol wireplumber libpipewire-0.3-modules ladspa-sdk swh-plugins dbus-user-session 
 	# sudo apt remove pipewire-media-session
 
 My custom configs looks like this (use nano, vi or mcedit:
