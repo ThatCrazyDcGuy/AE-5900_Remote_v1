@@ -192,7 +192,9 @@ It looks like chaos and yes, it is. Give me some time.
 14/Mar/2026to 15/Mar/2026
 
 1. Garden was calling. Ok, it was my wife calling there is lot of work in the garden. But anyway, i had no time.
+2. I found a short time frame, wife was busy with wife-stuff, to get my antenna 6m higher.
 
 16/Mar/2026
 
 1. Work is ongoing
+2. Still writing readme and documentation...
