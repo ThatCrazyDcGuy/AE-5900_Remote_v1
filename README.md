@@ -10,6 +10,9 @@ In my case i set the middle button of my AE5900 to Mode (modulation).
 So i can CH Up / CH Down / Mode and PTT my device from everywere.
 For audio i just use a usb Soundcard, some components and mumble on my raspberry and my phone.
 
+To be clear: That will work on most cb-radios which are controlled by buttons available on microphone.
+But it is tested on the Albrecht AE5900.
+
 ## A picture will say more than your wife
 
 - From first testing to put all the stuff in to a small case
