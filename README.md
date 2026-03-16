@@ -97,9 +97,9 @@ If you want to have the same as me:
 	# sudo apt install pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire pipewire-audio-client-libraries pavucontrol wireplumber libpipewire-0.3-modules ladspa-sdk swh-plugins dbus-user-session 
 	# sudo apt remove pipewire-media-session
 
-My custom configs looks like this (use nano, vi or mcedit:
+My custom configs looks like this (use nano, vi or mcedit):
 
-The custom.conf:
+The custom config for the radio optimized rate:
 
 	# mcedit ~/.config/pipewire/pipewire.conf.d/custom.conf
 	
