@@ -100,11 +100,10 @@ My custom configs looks like this (use nano, vi or mcedit:
 	# mcedit ~/.config/pipewire/pipewire.conf.d/custom.conf
 	
 And add:
-# context.properties = {
+"context.properties = {
     default.clock.rate = 48000
     default.clock.allowed-rates = [ 44100 48000 88200 96000 ]
-}
-
+}"
 
 
 
