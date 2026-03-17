@@ -154,6 +154,9 @@ If the hardware is build, all the settings are done and the Pro Micro 32U4 flash
 	# git clone https://github.com/ThatCrazyDcGuy/AE-5900_Remote_v1
 	# python3 ~/AE-5900_Remote_v1/webinterface/app.py	
 
+It might be a good idea to run a websdr at home. I do so. Not only for check if you are on the correct chanel and mode, also for checking audio. You will also be able to see whats happen all over the chanels.
+A good websdr is easely build with openwebrx, a raspberry, a rtl-sdr dongle (like RTL-SDR Blog V3 or v4 / nooelec nesdr v5)  and an antenna.
+Just have a look at https://luarvique.github.io/ppa/
 
 ## What you can expect more:
 
