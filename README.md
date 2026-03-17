@@ -1,5 +1,5 @@
-A simple LAN\WEB Albrecht AE-5900 remote control
-=================================================
+A simple LAN / WEB Albrecht AE-5900 remote rig control
+=======================================================
 
 ## Main purpose of the project:
 
