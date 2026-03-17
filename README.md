@@ -203,3 +203,8 @@ It looks like chaos and yes, it is. Give me some time.
 1. Work is ongoing.
 2. Still writing readme and documentation...
 3. Short Telegram update.
+
+17/Mar/2026
+
+1. Adding more infos.
+
