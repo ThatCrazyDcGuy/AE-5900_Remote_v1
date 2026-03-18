@@ -192,6 +192,7 @@ It looks like chaos and yes, it is. Give me some time.
 2. Might i solved the slow key reaction - testing is ongoing.
 3. Editing this readme.
 4. Got amazing DX SSB audio feedback Switzerland to Charlottesville USA.
+5. The project was linked on https://simonthewizard.com/2026/03/13/new-albrecht-ae-5900-simple-remote/
 
 14/Mar/2026to 15/Mar/2026
 
