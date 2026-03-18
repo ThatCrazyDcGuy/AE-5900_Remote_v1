@@ -213,3 +213,6 @@ It looks like chaos and yes, it is. Give me some time.
 18/Mar/2026
 
 1.	Adding more info and links of interest here.
+2.	Had to urgently fixture my telescopic pole.
+
+
