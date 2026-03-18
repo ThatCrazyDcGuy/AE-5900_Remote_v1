@@ -207,4 +207,4 @@ It looks like chaos and yes, it is. Give me some time.
 17/Mar/2026
 
 1. Adding more infos.
-
+2. Got fantastic audio feedback at "Argovia Runde" which is a group in switzerland, having QSO on CH13 USB every tuesday, 19:00 CET.
