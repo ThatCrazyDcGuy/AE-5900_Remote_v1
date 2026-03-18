@@ -12,7 +12,7 @@ So i can CH Up / CH Down / Mode and PTT my device from everywere.
 For audio i just use a usb Soundcard, some components and mumble on my raspberry and my phone.
 
 To be clear: That will work on most cb-radios which are controlled by buttons available on microphone.
-It is just tested on the Albrecht AE5900.
+It is just tested on the Albrecht AE5900. If you don't know the radio: https://www.alan-electronics.de/product-details.aspx?WPParams=50C9D4C6C5D2E6BDA5A98494A895
 
 ## A picture will say more than your wife
 
@@ -65,7 +65,7 @@ The Atmega32U4 i used is a Pro Micro, often from SpakFun or similiar brands.
 In my case i used pin 2 - 5. You can see at the bottom of the picture TX0 RX1 GND GND  (2 3 4 5 6 7.....) <- thats wehre we connect the resistors and optocouplers.
 On following Picture i marked the points wehre you can solder an USB port if you're not a fan of lot of plugs in your projects.
 
-- Pro Micro with 32U4 chip
+- Pro Micro with 32U4 chip (this one is my favorite: https://www.sparkfun.com/pro-micro-5v-16mhz.html#)
 
 	![AE-5900_Remote_v1](projectpictures/USB_Soldering_32U4ProMicro.jpg)
 
@@ -73,7 +73,7 @@ On following Picture i marked the points wehre you can solder an USB port if you
 
 - just for bulding
 
-Arduino IDE neded to flash/upload the Sketch (.ino file) to Pro Micro 32U4
+Arduino IDE neded to flash/upload the Sketch (.ino file) to Pro Micro 32U4 Get Arduno IDE here: https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/
 (Some librarys needed. I will list them later.)
 
 - to make the device useable
@@ -156,7 +156,7 @@ If the hardware is build, all the settings are done and the Pro Micro 32U4 flash
 
 It might be a good idea to run a websdr at home. I do so. Not only for check if you are on the correct chanel and mode, also for checking audio. You will also be able to see whats happen all over the chanels.
 A good websdr is easely build with openwebrx, a raspberry, a rtl-sdr dongle (like RTL-SDR Blog V3 or v4 / nooelec nesdr v5)  and an antenna.
-Just have a look at https://luarvique.github.io/ppa/
+Just have a look at OpenwebrxPlus: https://luarvique.github.io/ppa/ RTL-SDR Blog v4: https://www.rtl-sdr.com/v4/ 
 
 ## What you can expect more:
 
