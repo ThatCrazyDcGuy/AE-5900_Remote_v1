@@ -13,6 +13,7 @@ For audio i just use a usb Soundcard, some components and mumble on my raspberry
 
 To be clear: That will work on most cb-radios which are controlled by buttons available on microphone.
 It is just tested on the Albrecht AE5900. If you don't know the radio: https://www.alan-electronics.de/product-details.aspx?WPParams=50C9D4C6C5D2E6BDA5A98494A895
+I got my AE5900 from https://gmw-funktechnik.ch/ which is a amazing classic CB / HAM store.
 
 ## A picture will say more than your wife
 
