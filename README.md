@@ -177,6 +177,7 @@ I'm not a coder, but i can read what someone has written, i can understand and i
 
 1. Uploaded lot of informations, pictures,"shematics", the scripts (cleaned by googles AI).
 It looks like chaos and yes, it is. Give me some time.
+2. Project was linked on https://freie-funker-hochrhein.jimdofree.com
 
 12/Mar/2026:
 
