@@ -198,7 +198,7 @@ It looks like chaos and yes, it is. Give me some time.
 
 14/Mar/2026to 15/Mar/2026
 
-1. Garden was calling. Ok, it was my wife calling "there is lot of work in the garden". But anyway, i had no time.
+1. Garden was calling. Ok, it was my wife calling "there is lot of work in the garden". But anyway, i had no time for the project.
 2. I found a short time frame, wife was busy with wife-stuff, to get my antenna 6m higher.
 
 16/Mar/2026
@@ -216,5 +216,9 @@ It looks like chaos and yes, it is. Give me some time.
 
 1.	Adding more info and links of interest here.
 2.	Had to urgently fixture my telescopic pole.
+
+19/Mar/2026
+
+1. Still looking and testing for a better keep alive part in script which is not slowing down the buttons pressed.
 
 
