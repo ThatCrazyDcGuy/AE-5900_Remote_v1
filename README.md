@@ -1,9 +1,11 @@
 A simple LAN / WEB Albrecht AE-5900 remote rig control by web browser
 =======================================================
 
-## Main purpose of the project:
+## About state of the project
 
-Depcrecated. You better use the version V2: https://github.com/ThatCrazyDcGuy/AE5900_Remote_V2
+Depcrecated. The successor is AE5900_Remote_V2: https://github.com/ThatCrazyDcGuy/AE5900_Remote_V2
+
+## Main purpose of the project:
 
 Build a simple LAN / WEB remote control for the amazing Albrecht AE-5900 and similiar CB and HAM Radios.
 It is far away from a rigctl or hamlib but hey, it works.
